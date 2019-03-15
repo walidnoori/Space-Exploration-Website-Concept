@@ -1,0 +1,86 @@
+
+
+/*
+---- Basic Styling
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+ 
+  margin: 0;
+  width: 100%;
+  background-position: 50% 10%; 
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif; 
+  background-image: url(imgs/marsdes.png);
+}
+
+
+/*
+---- Navbar
+*/
+.navbar {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+
+
+
+.navbar-links {
+  position: relative;
+  width: 450px;
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 350px;
+}
+
+
+/* Links */
+.link {
+  background-color: #292828;
+  width: 100px;
+  height: 36px;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+    text-decoration: none;
+    margin: 7px;
+
+}
+
+.link:hover {
+  background-color: #fff;
+  color: #000;
+
+}
+
+
+.header {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: Eras ITC;
+
+}
+
+.paragraph {
+  margin-left: 100px;
+  color: #979595;
+  font-size: 17px;
+  max-width: 65%;
+  line-height: 26px;
+}

@@ -1,0 +1,207 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-image: url(imgs/background3.jpg);
+  background-repeat: no-repeat;
+  overflow:hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  padding: 0 3rem;
+
+}
+
+h1, h2 {
+  font-weight: 200;
+  margin: 0.4rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #aaa;
+  font-family: 'Arial';
+}
+
+
+
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #fff;
+}
+
+@media(min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media(max-width: 800px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+/*
+---- Navbar
+*/
+.navbar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*text-align: center;  */
+  padding: 0 40px;
+  padding
+}
+
+
+
+
+.navbar-links {
+  position: relative;
+  width: 350px;
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+  font-family: Eras ITC;
+}
+
+
+/* Links */
+.link {
+  width: 100px;
+  height: 36px;
+  font-size: 18px;
+   padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #CF964B;
+
+}
+
+
+
+
+
+
+/* content */
+
+.content {
+  float: right;
+}
+
+
+
+
+.content-paragraph {
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 25px;
+  max-width: 470px;
+}
+
+
+
+
+
+
+
+
+/* main content */
+.main-content {
+  float: right;
+  margin-right: 200px;
+  
+}
+
+.content-row {
+  display: inline-block;
+  margin-left: 100px;
+
+}
+
+
+
+
+.main-content-headers {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  animation: text 3s 1;
+}
+
+@keyframes text {
+  0% {
+    color: #CF964B;
+    margin-bottom: -40px;
+  }
+  30% {
+    letter-spacing: 10px;
+    margin-bottom: -40px;
+  }
+
+  85% {
+    letter-spacing: 5px;
+    margin-bottom: -40px;
+
+  }
+}
+
+
+.main-content-headers:hover {
+    color: #CF964B;
+
+}
+
+p {
+  color: #A8A8A8;
+  font-size: 12px;
+  max-width: 250px;
+  font-family: 'Arial' sans-serif;
+}
+
+
+
+

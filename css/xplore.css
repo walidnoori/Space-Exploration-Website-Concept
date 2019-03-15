@@ -1,0 +1,252 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+ 
+  margin: 0;
+  width: 100%;
+  background-position: 50% 10%; 
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif; 
+  background-image: url(../xploreImgs/blackspace.png);
+  overflow: hidden;
+}
+
+
+/*
+---- Navbar
+*/
+.navbar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+
+
+
+.navbar-links {
+  position: relative;
+  width: 350px;
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Eras ITC;
+}
+
+
+/* Links */
+.link {
+  width: 100px;
+  height: 36px;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #CF964B;
+
+}
+
+
+
+
+
+
+/* content */
+
+.content {
+  float: right;
+  margin-top: 80px;
+  margin-right: 180px;
+}
+
+
+.content-header {
+  color: #fff;
+  font-size: 56px;
+font-family: inherit;
+line-height: 75px;
+
+
+}
+
+.content-paragraph {
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 25px;
+  max-width: 470px;
+}
+
+
+
+
+
+
+/* main content */
+.main-content {
+  float: right;
+  margin-right: 200px;
+  margin-top: 120px;
+
+
+}
+
+.content-row {
+  display: inline-block;
+  margin-left: 100px;
+
+
+}
+
+
+.main-content-headers {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+
+
+}
+
+.main-content-headers:hover {
+    color: #CF964B;
+
+}
+
+p {
+  color: #A8A8A8;
+  font-size: 12px;
+  max-width: 250px;
+  font-family: 'Arial' sans-serif;
+}
+
+
+
+
+/* explore planets*/
+
+
+.xplore-content {
+text-align: center;
+margin-top: 100px;
+}
+
+
+.first-img {
+  margin-bottom: 20px;
+  float: left;
+  position: relative;
+  left: -350px;
+  top: -80px;
+  height: 600px;
+}
+
+.hover:hover {
+  color: red;
+  opacity: 0.7;
+
+}
+
+.second-img {
+	float: left;
+	position: relative;
+	height: 30px;
+	position: relative;
+	left: -280px;
+	margin-top: 230px;
+}
+
+
+.third-img {
+	float: left;
+	position: relative;
+	height: 60px;
+	position: relative;
+	left: -240px;
+	margin-top: 220px;
+}
+
+
+.fourth-img {
+	float: left;
+	position: relative;
+	height: 100px;
+	position: relative;
+	left: -200px;
+	margin-top: 190px;
+}
+
+
+.fifth-img {
+	float: left;
+	position: relative;
+	height: 30px;
+	position: relative;
+	left: -215px;
+	margin-top: 160px;
+}
+
+.sixth-img {
+	float: left;
+	position: relative;
+	height: 45px;
+	position: relative;
+	left: -190px;
+	margin-top: 220px;
+}
+
+.seventh-img {
+	float: left;
+	position: relative;
+	height: 180px;
+	position: relative;
+	left: -130px;
+	margin-top: 160px;
+}
+
+.eight-img {
+	float: left;
+	position: relative;
+	height: 100px;
+	position: relative;
+	left: -100px;
+	margin-top: 200px;
+}
+
+.ninth-img {
+	float: left;
+	position: relative;
+	height: 60px;
+	position: relative;
+	left: -50px;
+	margin-top: 220px;
+}
+
+
+.tenth-img {
+	float: right;
+	position: relative;
+	height: 100px;
+	position: relative;
+	right: 80px;
+	margin-top: 200px;
+}
+
+
+
+
+
+/*
+
+
+}*/
